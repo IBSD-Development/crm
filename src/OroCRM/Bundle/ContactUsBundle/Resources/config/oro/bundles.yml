@@ -1,2 +1,6 @@
-bundles:
-    - { name: OroCRM\Bundle\ContactUsBundle\OroCRMContactUsBundle, priority: 50 }
+exclusions:
+    - { name: OroCRM\Bundle\SalesBundle\OroCRMSalesBundle }
+    - { name: OroCRM\Bundle\MagentoBundle\OroCRMMagentoBundle }
+    - { name: OroCRM\Bundle\DemoDataBundle\OroCRMDemoDataBundle }
+    - { name: OroCRM\Bundle\MagentoContactUsBundle\OroCRMMagentoContactUsBundle }
+    - { name: OroCRM\Bundle\ContactUsBundle\OroCRMContactUsBundle }
